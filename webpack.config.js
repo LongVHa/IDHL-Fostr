@@ -2,9 +2,10 @@
 const path = require('path');
 
 module.exports = {
+  mode: 'development',
   entry: './src/scripts/main.js',
   output: {
-    filename: 'fostr-bundle.js',
+    filename: 'IDHL-fostr-bundle.js',
     path: path.resolve(__dirname, 'assets'),
   },
   module: {
@@ -20,7 +21,8 @@ module.exports = {
         },
       },
       {
-        test: /\.scss$/,
+        test: /\.(sass|scss)$/,
+        include: path.resolve(__dirname, 'src'),
         use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader'],
       },
     ],
