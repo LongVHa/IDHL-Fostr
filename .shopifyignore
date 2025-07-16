@@ -1,0 +1,30 @@
+# OS generated files #
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files #
+*.config.*.js
+*.config.js
+.eslint*.js
+/\.(sass|scss)$/
+src/
+node_modules/
+.github
+package.json
+package-lock.json
+.vscode
+
+# Other files #
+/\.(txt|gif|jpg|png|md)$/
+docs
+assets/main.js.map
+assets/empty.js
+empty.js
+main.js.map
+webpack.config.js
+README.md
