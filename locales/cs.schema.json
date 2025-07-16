@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "colors": {
@@ -989,7 +998,7 @@
         },
         "enable_customer_avatar": {
           "label": "Avatar zákaznického účtu",
-          "info": "Viditelné pouze v případě, kdy jsou zákazníci přihlášeni přes Shop. [Spravovat zákaznické účty](/admin/settings/customer_accounts)"
+          "info": "Viditelné pouze v případě, kdy jsou zákazníci přihlášeni do aplikace Shop. [Spravovat zákaznické účty](/admin/settings/customer_accounts)"
         },
         "header__utilities": {
           "content": "Veřejné služby"

@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "password_page": {
@@ -120,8 +129,7 @@
         "in_cart_html": "Sepette: <span class=\"quantity-cart\">{{ quantity }}</span>",
         "note": "Adet kurallarını görüntüle",
         "min_of": "Minimum {{ quantity }}",
-        "max_of": "Maksimum {{ quantity }}",
-        "in_cart_aria_label": "Adet (sepetteki: {{ quantity }})"
+        "max_of": "Maksimum {{ quantity }}"
       },
       "price": {
         "from_price_html": "Başlangıç fiyatı: {{ price }}",
@@ -155,7 +163,6 @@
         "load_video": "Video {{ index }} galeri görüntüleyicide oynatın",
         "image_available": "Görsel {{ index }} artık galeri görüntüleyicide kullanılabilir"
       },
-      "nested_label": "{{ parent_title }} için {{ title }}",
       "view_full_details": "Tüm ayrıntıları görüntüle",
       "shipping_policy_html": "<a href=\"{{ link }}\">Kargo</a>, ödeme sayfasında hesaplanır.",
       "choose_options": "Seçenekleri belirle",

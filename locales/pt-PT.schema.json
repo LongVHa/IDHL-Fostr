@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "colors": {
@@ -902,7 +911,7 @@
           "content": "Utilitários"
         },
         "enable_follow_on_shop": {
-          "label": "Seguir na Shop",
+          "label": "Seguir no Shop",
           "info": "O Shop Pay tem de ser ativado. [Saber mais](https://help.shopify.com/manual/online-store/themes/customizing-themes/follow-on-shop)"
         }
       }
