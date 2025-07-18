@@ -5,9 +5,9 @@
   "main": "main.js",
   "scripts": {
     "dev": "run-p vite:dev shopify:dev",
-    "build": "vite build",
+    "build": "vite build --watch",
     "preview": "vite preview",
-    "vite:dev": "vite",
+    "vite:dev": "vite build --watch",
     "shopify:dev": "shopify theme dev",
     "pull-settings": "shopify theme pull --only config/"
   },
@@ -17,8 +17,11 @@
     "autoprefixer": "^10.4.21",
     "npm-run-all": "^4.1.5",
     "postcss": "^8.5.6",
+    "rollup-plugin-postcss": "^4.0.2",
     "sass": "^1.89.2",
     "vite": "^6.3.5",
-    "vite-plugin-babel": "^1.3.2"
+    "vite-plugin-babel": "^1.3.2",
+    "vite-plugin-css-injected-by-js": "^3.5.2",
+    "vite-plugin-full-reload": "^1.2.0"
   }
 }
