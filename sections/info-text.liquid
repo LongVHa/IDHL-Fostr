@@ -1,0 +1,35 @@
+<section class="info-text">
+  <div class="info-text__container">
+    <h2 class="info-text__title">Ornare Vulputate Elit</h2>
+    <p class="info-text__body">Nullam quis risus eget urna mollis ornare vel eu leo, dapibus, tellus ac cursus commodo, tortor ma condimentum nibh, 
+      ut fermentum massa justo sit an. Aenean lacinia bibendum nullla sed consectet. Morb ido risus, porta a consectetur ac, vestibuu et eros
+    </p>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Info Text",
+  "tag": "section",
+  "class": "info-text-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "info_text_title",
+      "label": "Title",
+      "default": "Clarity Meets Craft"
+    },
+    {
+      "type": "textarea",
+      "id": "info_text_body",
+      "label": "Body Text"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Info Text",
+      "category": "Content"
+    }
+  ]
+}
+{% endschema %}
