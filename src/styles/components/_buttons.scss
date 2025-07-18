@@ -13,18 +13,12 @@
   text-decoration: none;
   font-family: inherit;
   letter-spacing: 0.1em;
-
-  &:disabled {
-    opacity: 0.6;
-    cursor: not-allowed;
-  }
 }
 
 // Primary button
 .btn-primary {
   background-color: #FF5C00;
   width: 100%;
-  max-width: 170px;
   color: $color-primary;
 
   &:hover {
@@ -41,4 +35,11 @@
 .btn-lg {
   padding: 1rem 2rem;
   font-size: 1.3rem;
+  max-width: 170px;
+}
+
+.btn-xlg {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
+  max-width: 350px;
 }
