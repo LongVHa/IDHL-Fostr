@@ -1,0 +1,50 @@
+@use '@/styles/index' as *;
+
+body {
+    background-color: $color-primary!important;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+
+    &__wrapper {
+        display: flex;
+
+        .info-text {
+            height: max-content;
+            width:100%;
+            max-width: calc(70% - 2rem);
+        }
+
+        @media screen and (max-width: $breakpoint-md) {
+            flex-direction: column;
+
+            .product-card,
+            .info-text {
+                width: 100%;
+                max-width: calc(85% - 2rem);
+                flex: 1 1 100%;
+                padding: $padding-xlg 0;  
+            }
+        }
+    }
+}
+
+.info-text-section {
+      background-color: #fff;
+}
+
+
+.info-text-section,
+#shopify-section-product-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+
+  @media screen and (max-width: $breakpoint-md) {
+    width: 100%;
+  }
+}

@@ -1,0 +1,44 @@
+@use '@/styles/index' as *;
+
+// Base button styles
+.btn {
+  display: inline-block;
+  padding: $btn-padding;
+  font-size: $btn-font-size;
+  border-radius: $btn-border-radius;
+  border: none;
+  cursor: pointer;
+  transition: $btn-transition;
+  text-align: center;
+  text-decoration: none;
+  font-family: inherit;
+  letter-spacing: 0.1em;
+
+  &:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+}
+
+// Primary button
+.btn-primary {
+  background-color: #FF5C00;
+  width: 100%;
+  max-width: 170px;
+  color: $color-primary;
+
+  &:hover {
+    background-color: $btn-primary-hover-bg;
+  }
+}
+
+// Size modifiers
+.btn-sm {
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+}
+
+.btn-lg {
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+}

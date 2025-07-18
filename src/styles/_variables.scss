@@ -1,0 +1,50 @@
+// Color palette
+$color-primary: #ebf6f8;
+$color-secondary: #ff5c00;
+$color-border: #ebebeb;
+
+// Typography
+$font-base: 'Helvetica Neue', sans-serif;
+$font-heading: 'Georgia', serif;
+$font-size-base: 16px;
+$line-height-base: 1.5;
+
+// Spacing
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+
+// padding
+$padding-xxs: 12px;
+$padding-xs: 18px;
+$padding-sm: 24px;
+$padding-md: 32px;
+$padding-lg: 48px;
+$padding-xlg: 75px;
+
+// Borders & Radius
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+
+// Breakpoints
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// buttons
+$btn-padding: 0.75rem 1.5rem;
+$btn-font-size: 1rem;
+$btn-border-radius: 20px;
+$btn-transition: all 0.3s ease;
+$btn-primary-color: #ffffff;
+$btn-primary-bg: #ff5c00;
+$btn-primary-hover-bg: #f0b152;
+
+//card
+$card-padding: 1.5rem;
+$card-border-radius: 8px;
+$card-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+$card-bg: #ffffff;
+$card-text-color: #333;

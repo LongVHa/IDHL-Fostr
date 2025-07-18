@@ -1,0 +1,39 @@
+@use '@/styles/index' as *;
+
+.idhl-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: $padding-lg;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    @media screen and (max-width: $breakpoint-md) {
+        position: relative;
+        background-color: #fff;
+        padding-bottom: 0;
+    }
+
+    &__logo {
+        img {
+            width: 10rem; 
+        }
+    }
+
+    &__bag {
+        cursor: pointer;
+        width: 2.6rem;
+        position: relative;
+    
+        &-count {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+    }
+}

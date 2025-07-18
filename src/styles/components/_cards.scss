@@ -1,0 +1,60 @@
+@use '@/styles/index' as *;
+// Base card styles
+.card {
+  background-color: $card-bg;
+  color: $card-text-color;
+  padding: $card-padding;
+  border-radius: $card-border-radius;
+  box-shadow: $card-shadow;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: box-shadow 0.3s ease;
+  width: 100%;
+  max-width: 40rem;
+
+  &:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+  }
+
+  p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+// Modifier: image card
+.card--image {
+  padding: 0;
+  overflow: hidden;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-top-left-radius: $card-border-radius;
+    border-top-right-radius: $card-border-radius;
+  }
+
+  .card-content {
+    padding: $card-padding;
+  }
+}
+
+// Modifier: outlined card
+.card--outline {
+  background-color: transparent;
+  border: 1px solid $card-text-color;
+  box-shadow: none;
+
+  &:hover {
+    background-color: $card-bg;
+    box-shadow: $card-shadow;
+  }
+}
