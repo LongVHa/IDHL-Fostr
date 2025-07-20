@@ -1,10 +1,1 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const t = document.querySelector(".IDHL-cart"), e = document.querySelector(".IDHL-cart-backdrop"), c = document.querySelector(".IDHL-add-to-bag"), s = document.querySelector(".IDHL-cart__close");
-  c == null || c.addEventListener("click", () => {
-    t == null || t.classList.add("IDHL-cart--open"), e == null || e.classList.add("IDHL-cart-backdrop--visible");
-  });
-  const n = () => {
-    t == null || t.classList.remove("IDHL-cart--open"), e == null || e.classList.remove("IDHL-cart-backdrop--visible");
-  };
-  e == null || e.addEventListener("click", n), s == null || s.addEventListener("click", n);
-});
+var FostrThemeBundle=function(){"use strict";function r(){const t=document.querySelector(".IDHL-cart"),e=document.querySelector(".IDHL-cart-backdrop"),c=document.querySelector(".IDHL-add-to-bag"),s=document.querySelector(".IDHL-cart__close");c==null||c.addEventListener("click",()=>{t==null||t.classList.add("IDHL-cart--open"),e==null||e.classList.add("IDHL-cart-backdrop--visible")});const n=()=>{t==null||t.classList.remove("IDHL-cart--open"),e==null||e.classList.remove("IDHL-cart-backdrop--visible")};e==null||e.addEventListener("click",n),s==null||s.addEventListener("click",n)}return{init:r}}();
