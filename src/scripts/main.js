@@ -1,6 +1,6 @@
 import '@/styles/main.scss';
 
-document.addEventListener('DOMContentLoaded', () => {
+function initCartDrawer() {
   const cart = document.querySelector('.IDHL-cart');
   const backdrop = document.querySelector('.IDHL-cart-backdrop');
   const addToBagBtn = document.querySelector('.IDHL-add-to-bag');
@@ -18,4 +18,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
   backdrop?.addEventListener('click', closeCart);
   closeBtn?.addEventListener('click', closeCart);
-});
+}
+
+
+export default {
+  init: initCartDrawer
+};
