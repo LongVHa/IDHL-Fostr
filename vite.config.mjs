@@ -4,6 +4,7 @@ import path from 'path';
 import postcss from 'rollup-plugin-postcss';
 import autoprefixer from 'autoprefixer';
 
+
 export default defineConfig({
    server: {
     watch: {
@@ -19,10 +20,12 @@ export default defineConfig({
       extract: 'IDHL-fostr-bundle.css',
       minimize: true,
       sourceMap: true,
-      plugins: [autoprefixer()]
+      plugins: [autoprefixer()],
+      inject: false
     })
   ],
   build: {
+    cssMinify: false,
     lib: {
       entry: path.resolve(__dirname, 'src/scripts/main.js'),
       name: 'FostrThemeBundle',
