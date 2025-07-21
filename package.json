@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "dev": "run-p vite:dev shopify:dev",
-    "build": "vite build",
+    "build": "vite build && node cleanup.js",
     "preview": "vite preview",
     "vite:dev": "vite build --watch",
     "shopify:dev": "shopify theme dev",
